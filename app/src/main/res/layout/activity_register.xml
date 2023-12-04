@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/test"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="130sp"
+        >
+    <ImageView
+        android:layout_marginStart="150dp"
+        android:layout_width="96dp"
+        android:layout_height="107dp"
+        android:background="@drawable/logo1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Smart_home"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="130dp"
+        tools:ignore="SpUsage" />
+    <ImageView
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="10sp"
+        android:layout_width="370sp"
+        android:layout_height="175sp"
+        android:background="@drawable/sq">
+    </ImageView>
+        
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
